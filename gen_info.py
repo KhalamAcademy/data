@@ -76,9 +76,12 @@ for dirpath, boards, _ in walker:
                     print(f"Adding chapter {chapter.name}")
 
                     chapter_dir = os.path.join(subject_dir, chapter.name)
+
+                    # Chapter handling begins here
+
                     chapter_info = common.load_yaml(os.path.join(chapter_dir, "info.yaml"))
 
-                    # Check chapter info and fixup the format
+                    # Check chapter info and make fixes
                     if not chapter_info.get("primary-tag"):
                         if chapter_info.get("tags"):
                             chapter_info["primary-tag"] = chapter_info["tags"][0]
@@ -88,15 +91,27 @@ for dirpath, boards, _ in walker:
 
                     tags += chapter_info["tags"]
 
+                    chapter_res = common.load_yaml(os.path.join(chapter_dir, "res.yaml"))
+
+                    # Check chapter res and make fixes
+                    for key in chapter_res.keys():
+                        if not chapter_res.get(key):
+                            chapter_res[key] = []
+
+                    # Write all the files to the needed places
                     build_chapter_dir = subject_dir.replace("grades", "build/grades", 1)
                     pathlib.Path(build_chapter_dir).mkdir(parents=True)
 
                     with open(os.path.join(build_chapter_dir, "info.min.json"), "w") as chapter_info_json:
                         common.write_min_json(chapter_info, chapter_info_json)
+                    with open(os.path.join(build_chapter_dir, "res.min.json"), "w") as chapter_res_json:
+                        common.write_min_json(chapter_res, chapter_res_json)
+
 
     if common.debug_mode:
         print(dirpath, boards)
 
+# Add in grade info from recorded data
 with open("build/grades/grade_info.min.json", "w") as grades_file:
     common.write_min_json({
             "grades": grades,

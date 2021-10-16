@@ -5,7 +5,8 @@ embibe:
 khan: 
   - khanAcademyVideo1
   - khanAcademyVideo2
-phet: phetLink
+phet: 
+  - phetLink
 
 # Any extra resources here
 extra:

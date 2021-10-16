@@ -32,3 +32,6 @@ def pformat(d) -> str:
 
 def write_min_json(d: dict, fp):
     return fp.write(json.dumps(d, separators=(',', ':')))
+
+def remove_ws(s: str) -> str:
+    return s.replace("\n", "").replace("  ", "")

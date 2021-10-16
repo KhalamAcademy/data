@@ -1,0 +1,10 @@
+<ul>
+{%- for grade in grades -%}
+    <li>{% if lang == "en" %}Grade {% elif lang == "hi" %}Standard (पद) {% endif %}{{ grade }}</li>
+    {%- for board in grade_boards[grade] -%}
+        <ul>
+            <li>{{ board }}</li>
+        </ul>
+    {%- endfor -%}
+{%- endfor -%}
+</ul>

@@ -8,7 +8,17 @@ import os
 import shutil
 import common
 import pathlib
+from jinja2 import Environment, FileSystemLoader, select_autoescape
 from typing import Dict, List
+
+# Basic setup
+env = Environment(
+    loader=FileSystemLoader("templates/jinja2"),
+    autoescape=select_autoescape()
+)
+
+env.trim_blocks = True
+env.lstrip_blocks = True
 
 shutil.rmtree("build", ignore_errors=True)
 pathlib.Path("build/examples").mkdir(parents=True)
@@ -107,7 +117,6 @@ for dirpath, boards, _ in walker:
                     with open(os.path.join(build_chapter_dir, "res.min.json"), "w") as chapter_res_json:
                         common.write_min_json(chapter_res, chapter_res_json)
 
-
     if common.debug_mode:
         print(dirpath, boards)
 
@@ -120,3 +129,14 @@ with open("build/grades/grade_info.min.json", "w") as grades_file:
         },
         grades_file
     )
+
+print("Creating keystone")
+# Create keystone.min.json using jinja2 and others
+with open("build/index/keystone.min.json", "w") as keystone:
+    grades_list = env.get_template("grades_list.jinja2")
+    common.write_min_json({
+        "grades_list": {
+            "en": common.remove_ws(grades_list.render(grades=grades, grade_boards=grade_boards, lang="en")),
+            "hi": common.remove_ws(grades_list.render(grades=grades, grade_boards=grade_boards, lang="hi"))
+        }
+    }, keystone)

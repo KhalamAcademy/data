@@ -1,9 +1,21 @@
 # Chapter resources
 
-embibe: embibeVideo
+embibe: 
+  - embibeVideo1
+khan: 
+  - khanAcademyVideo1
+  - khanAcademyVideo2
 phet: phetLink
 
 # Any extra resources here
 extra:
   - Extra references here
   - Second extra reference
+
+# Youtube videos here
+youtube:
+  - Youtube link 1
+
+# Advanced (much higher level content here)
+advanced:
+  - First advanced level here

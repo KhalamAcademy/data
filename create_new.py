@@ -4,7 +4,7 @@ import shutil
 import sys
 import common
 
-info = common.load_info_file()
+info = common.load_yaml("info.yaml")
 
 # Create the grade
 grade = common.input_int("Enter grade? ")

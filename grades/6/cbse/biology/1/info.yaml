@@ -3,3 +3,6 @@
 name: "Food: Where Does it Come From?"
 desc: Have you ever wondered where food comes from?
 study-time: 10:30
+tags: 
+  - food
+primary-tag: food

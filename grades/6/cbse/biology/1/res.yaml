@@ -4,25 +4,20 @@ main:
   name: $name
 
   embibe:
-    videos:
-      - link: https://www.embibe.com/video/summary/5912165?format_reference=5ec5867a0c88fe5860961943&topic_learnpath_name=cbse--6th+cbse--science--biology--components+of+food--food+and+its+components
-        js-needed: NO
+    - link: https://www.embibe.com/video/summary/5912165?format_reference=5ec5867a0c88fe5860961943&topic_learnpath_name=cbse--6th+cbse--science--biology--components+of+food--food+and+its+components
 
   khan:
 
   vedantu:
-    videos:
-      - link: https://www.vedantu.com/biology/food-source
-        js-needed: NO
+    - link: https://www.vedantu.com/biology/food-source
 
   phet:
 
   extra:
 
   youtube:
-    videos:
-      - link: https://www.youtube.com/watch?v=8hJH9MYZO50
-        js-needed: YES
+    - link: https://www.youtube.com/watch?v=8hJH9MYZO50
+      js-needed: YES
 
   advanced:
-    - https://www.khanacademy.org/humanities/whp-origins/era-5-the-first-global-age/53-the-colombian-exchange-betaa/a/read-crops-that-grew-the-world-beta
+    - link: https://www.khanacademy.org/humanities/whp-origins/era-5-the-first-global-age/53-the-colombian-exchange-betaa/a/read-crops-that-grew-the-world-beta

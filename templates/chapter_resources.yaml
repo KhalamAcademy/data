@@ -3,31 +3,30 @@
 subtopic:
   name: Name of subtopic
   embibe: 
-    videos: # All links under videos will be parsed to get their title during compilation
+    links: # All links under links will be parsed to get their title during compilation
       - link: embibeVideo1
-        js-needed: NO # Or yes
+        js-needed: NO # Or yes, optional if not needed
 
   khan:
-    videos:
-      - link: khanAcademyVideo1
-      - link: khanAcademyVideo2
+    - link: khanAcademyVideo1
+    - link: khanAcademyVideo2
 
-  vedantu: # Does not usually have videos but...
-    - vedantuLink1
+  vedantu: 
+    - link: vedantuLink1
 
   phet:
-    - phetLink
+    - link: phetLink
 
   # Any extra resources here
   extra:
-    - Extra references here
-    - Second extra reference
+    - link: Extra references here
+    - link: Second extra reference
 
   # Youtube videos here
   youtube:
-    videos:
-      - link: Youtube link 1
+    - link: Youtube link 1
+      js-needed: YES
 
   # Advanced (much higher level content here)
   advanced:
-    - First advanced level here
+    - link: First advanced level here

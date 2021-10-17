@@ -88,6 +88,7 @@ for dirpath, boards, _ in walker:
 
                 subject_dir = os.path.join(dirpath, board, subject)
 
+                chapter_listing: Dict[int, int] = {}
                 for chapter in os.scandir(subject_dir):
                     if not chapter.is_dir():
                         continue
@@ -98,6 +99,12 @@ for dirpath, boards, _ in walker:
                     # Chapter handling begins here
 
                     chapter_info = common.load_yaml(os.path.join(chapter_dir, "info.yaml"))
+
+                    try:
+                        chapter_listing[int(chapter.name)] = chapter_info["name"]
+                    except ValueError:
+                        print(f"WARNING: Invalid chapter {chapter.name}")
+                        continue
 
                     # Check chapter info and make fixes
                     if not chapter_info.get("primary-tag"):
@@ -124,6 +131,11 @@ for dirpath, boards, _ in walker:
                         common.write_min_json(chapter_info, chapter_info_json)
                     with open(os.path.join(build_chapter_dir, "res.min.json"), "w") as chapter_res_json:
                         common.write_min_json(chapter_res, chapter_res_json)
+
+                chapter_listing_path = os.path.join(subject_dir.replace("grades", "build/grades", 1), "chapter_list.json")
+                with open(chapter_listing_path, "w") as chapter_listing_fp:
+                    common.write_min_json(chapter_listing, chapter_listing_fp)
+                    
 
     if common.debug_mode:
         print(dirpath, boards)

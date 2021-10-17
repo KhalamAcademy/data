@@ -6,8 +6,10 @@ This is where the core aggregated data is stored as well as helper scripts.
 
 ## Contributing
 
-Run ``create_new.py`` to create a new chapter in a subject or to create a new subject itself or a new grade in a existing subject.
+Once you have setup KhalamAcademy/site:
 
-Run ``gen_info.py`` to 'build' all the YAML files into the *.min.json files that the site or any future app will use.
+Run ``python manage.py data add`` to create a new chapter in a subject or to create a new subject itself or a new grade in a existing subject.
+
+Run ``python manage.py data build`` to 'build' all the YAML files into the *.min.json files that the site or any future app will use.
 
 keystone.min.json will contain html in different languages

@@ -1,25 +1,27 @@
 # Chapter resources
 
-embibe: 
-  - embibeVideo1
-khan: 
-  - khanAcademyVideo1
-  - khanAcademyVideo2
-vedantu:
-  - vedantuLink1
+main:
+  name: $name
+  embibe: 
+    - embibeVideo1
+  khan: 
+    - khanAcademyVideo1
+    - khanAcademyVideo2
+  vedantu:
+    - vedantuLink1
 
-phet: 
-  - phetLink
+  phet: 
+    - phetLink
 
-# Any extra resources here
-extra:
-  - Extra references here
-  - Second extra reference
+  # Any extra resources here
+  extra:
+    - Extra references here
+    - Second extra reference
 
-# Youtube videos here
-youtube:
-  - Youtube link 1
+  # Youtube videos here
+  youtube:
+    - Youtube link 1
 
-# Advanced (much higher level content here)
-advanced:
-  - First advanced level here
+  # Advanced (much higher level content here)
+  advanced:
+    - First advanced level here

@@ -1,10 +1,8 @@
-<ul class="grades">
 {%- for grade in grades -%}
-    <li class="grade" id="grade{{grade}}">{% if lang == "en" %}Grade {% elif lang == "hi" %}Standard (पद) {% endif %}{{ grade }}</li>
+    <span class="grade" id="grade{{grade}}">{% if lang == "en" %}Grade {% elif lang == "hi" %}Standard (पद) {% endif %}{{ grade }}</span>
     {%- for board in grade_boards[grade] -%}
-        <ul class="boards" id="{{loop.index}}">
-            <li class="board" id="{{board.lower()}}"><a href="#" onclick="getBoard('{{board.lower()}}')">{{ board.upper() }}</a></li>
+        <ul class="boards" id="grade{{grade}}-{{loop.index}}">
+            <li class="board" id="grade{{grade}}-{{board.lower()}}"><a href="#" onclick="getBoard({{grade}}, '{{board.lower()}}')">{{ board.upper() }}</a></li>
         </ul>
     {%- endfor -%}
 {%- endfor -%}
-</ul>

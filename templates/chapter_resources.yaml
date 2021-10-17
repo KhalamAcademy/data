@@ -1,25 +1,33 @@
 # Chapter resources
 
-embibe: 
-  - embibeVideo1
-khan: 
-  - khanAcademyVideo1
-  - khanAcademyVideo2
-vedantu:
-  - vedantuLink1
+subtopic:
+  name: Name of subtopic
+  embibe: 
+    videos: # All links under videos will be parsed to get their title during compilation
+      - link: embibeVideo1
+        js-needed: NO # Or yes
 
-phet: 
-  - phetLink
+  khan:
+    videos:
+      - link: khanAcademyVideo1
+      - link: khanAcademyVideo2
 
-# Any extra resources here
-extra:
-  - Extra references here
-  - Second extra reference
+  vedantu: # Does not usually have videos but...
+    - vedantuLink1
 
-# Youtube videos here
-youtube:
-  - Youtube link 1
+  phet:
+    - phetLink
 
-# Advanced (much higher level content here)
-advanced:
-  - First advanced level here
+  # Any extra resources here
+  extra:
+    - Extra references here
+    - Second extra reference
+
+  # Youtube videos here
+  youtube:
+    videos:
+      - link: Youtube link 1
+
+  # Advanced (much higher level content here)
+  advanced:
+    - First advanced level here

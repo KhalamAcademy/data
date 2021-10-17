@@ -15,13 +15,13 @@ main:
 
   # Any extra resources here
   extra:
-    - Extra references here
-    - Second extra reference
+    - link: https://www.youtube.com/watch?v=VmxdR7MJh8w
 
   # Youtube videos here
   youtube:
-    - Youtube link 1
+    - link: https://www.youtube.com/watch?v=gHbLqYMpW94
+    - link: https://www.youtube.com/watch?v=t89zX78TbNE
 
   # Advanced (much higher level content here)
   advanced:
-    - First advanced level here
+    - link: https://www.youtube.com/watch?v=YO244P1e9QM

@@ -14,10 +14,10 @@ main:
   phet:
 
   extra:
+    - link: https://www.embibe.com/exams/cbse-class-6/
 
   youtube:
     - link: https://www.youtube.com/watch?v=8hJH9MYZO50
-      js-needed: YES
 
   advanced:
     - link: https://www.khanacademy.org/humanities/whp-origins/era-5-the-first-global-age/53-the-colombian-exchange-betaa/a/read-crops-that-grew-the-world-beta

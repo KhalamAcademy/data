@@ -1,0 +1,14 @@
+# All the subjects that are currently supported
+subjects:
+  biology:
+    name: Biology
+    desc: Biology is the study of life
+    image: https://upload.wikimedia.org/wikipedia/commons/7/79/Thompson%27s_Gazelle.jpeg
+  physics:
+    name: Physics
+    desc: Physics is the study of motion and the world around you
+    image: https://upload.wikimedia.org/wikipedia/commons/9/91/Bruce_McCandless_II_during_EVA_in_1984.jpg
+  chemistry:
+    name: Chemistry
+    desc: Chemistry is the study of the properties and behavior of matter
+    image: https://upload.wikimedia.org/wikipedia/commons/e/e1/Chemicals_in_flasks.jpg

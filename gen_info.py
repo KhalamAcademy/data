@@ -22,21 +22,28 @@ env.lstrip_blocks = True
 
 shutil.rmtree("build", ignore_errors=True)
 pathlib.Path("build/examples").mkdir(parents=True)
-pathlib.Path("build/index").mkdir(parents=True)
-pathlib.Path("build/grades").mkdir(parents=True)
+pathlib.Path("build/keystone").mkdir(parents=True)
 
-info = common.load_yaml("info.yaml")
+info = common.load_yaml("core/info.yaml")
+sources = common.load_yaml("core/sources.yaml")
+subjects = common.load_yaml("core/subjects.yaml")
 
 # Move out the example stuff
 if "examples" in info.keys():
     examples = info["examples"]
     del info["examples"]
 
-with open("build/examples/info.json", "w") as examples_fp:
+with open("build/examples/devexamples.json", "w") as examples_fp:
     json.dump(examples, examples_fp, indent=4)
 
-with open("build/index/info.min.json", "w") as site_index_info:
+with open("build/keystone/info.min.json", "w") as site_index_info:
     common.write_min_json(info, site_index_info)
+
+with open("build/keystone/sources.min.json", "w") as sources_fp:
+    common.write_min_json(sources, sources_fp)
+
+with open("build/keystone/subjects.min.json", "w") as subjects_fp:
+    common.write_min_json(subjects, subjects_fp)
 
 # Create grades
 grades: list = []
@@ -121,18 +128,17 @@ for dirpath, boards, _ in walker:
         print(dirpath, boards)
 
 # Add in grade info from recorded data
-with open("build/grades/grade_info.min.json", "w") as grades_file:
+with open("build/keystone/grade_info.min.json", "w") as grades_file:
     common.write_min_json({
             "grades": grades,
             "tags": tags,
             "grade_boards": grade_boards
         },
-        grades_file
-    )
+        grades_file)
 
-print("Creating keystone")
 # Create keystone.min.json using jinja2 and others
-with open("build/index/keystone.min.json", "w") as keystone:
+print("Compiling HTML")
+with open("build/keystone/html.min.json", "w") as keystone:
     grades_list = env.get_template("grades_list.jinja2")
     common.write_min_json({
         "grades_list": {

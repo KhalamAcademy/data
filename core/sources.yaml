@@ -1,0 +1,21 @@
+# All recognized sources
+platforms:
+  embibe:
+    name: "Embibe"
+    langs:
+      - en
+      - hi
+    creator: "Embibe"
+  khan:
+    name: "Khan Academy"
+    langs:
+      - en
+      - hi
+    creator: "Khan Academy"
+  phet:
+    name: "PhET"
+    langs:
+      - en
+      - hi
+      - ta
+    creator: "University Of Colorado"

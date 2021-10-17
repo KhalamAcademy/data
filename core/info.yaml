@@ -1,0 +1,35 @@
+# Just basic info and metadata for reference in the site
+
+# Supported boards
+boards:
+  - CBSE
+
+# All languages we support
+langs:
+  en:
+    name: Englsh
+  hi:
+    name: Hindi
+  ta:
+    name: Tamil
+
+# All the grades that are currently supported
+grades:
+  6:
+    name: "Grade 6"
+    boards:
+      - CBSE
+    langs:
+      - en
+      - hi
+      - ta
+
+# Example formats for future reference
+examples:
+  Info: This file is for developer reference. This is the format for adding a new subject. See info.yaml for the actual yaml representation
+
+  Subjects: Subject Docs
+  Example Subject Name:
+    name: "Name of subject"
+    desc: "Description of subject"
+    image: "Image to display for subject"

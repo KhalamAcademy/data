@@ -5,4 +5,7 @@ desc: Have you ever wondered where food comes from?
 study-time: 10:30
 tags: 
   - food
+  - source
+
+# If omitted, gen_info.py will automatically use the first tag as the primary tag
 primary-tag: food

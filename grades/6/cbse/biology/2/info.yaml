@@ -1,0 +1,11 @@
+# Chapter info
+
+name: Chapter Name
+desc: Chapter Description
+study-time: 10:30
+tags: 
+  - tag1
+  - tag2
+
+# If omitted, gen_info.py will automatically use the first tag as the primary tag
+primary-tag: tag1

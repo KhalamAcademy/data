@@ -4,7 +4,7 @@ import shutil
 import sys
 import common
 
-info = common.load_yaml("core/info.yaml")
+boards = common.load_yaml("core/boards.yaml")
 subjects = common.load_yaml("core/subjects.yaml")
 
 # Create the grade
@@ -24,8 +24,8 @@ if not os.path.exists(grade_path):
 
 board = input("Enter board? ")
 
-if board.upper() not in info["boards"]:
-    print("Board not in core/info.yaml!")
+if board.upper() not in boards:
+    print("Board not in core/boards.yaml!")
     sys.exit(-1)
 
 board_path = f"{grade_path}/{board.lower()}"
@@ -35,8 +35,8 @@ if not os.path.exists(board_path):
 
 subject = input("Enter subject name? ")
 
-if subject.lower() not in subjects["subjects"].keys():
-    print("Subject not in info.yaml!")
+if subject.lower() not in subjects.keys():
+    print("Subject not in core/subjects.yaml!")
     sys.exit(-1)  
 
 subject_path = f"{board_path}/{subject.lower()}"

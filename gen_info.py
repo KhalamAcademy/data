@@ -21,29 +21,26 @@ env.trim_blocks = True
 env.lstrip_blocks = True
 
 shutil.rmtree("build", ignore_errors=True)
-pathlib.Path("build/examples").mkdir(parents=True)
 pathlib.Path("build/keystone").mkdir(parents=True)
 
-info = common.load_yaml("core/info.yaml")
+boards_data = common.load_yaml("core/boards.yaml")
+langs = common.load_yaml("core/langs.yaml")
 sources = common.load_yaml("core/sources.yaml")
-subjects = common.load_yaml("core/subjects.yaml")
+subjects_data = common.load_yaml("core/subjects.yaml")
 
-# Move out the example stuff
-if "examples" in info.keys():
-    examples = info["examples"]
-    del info["examples"]
-
-with open("build/examples/devexamples.json", "w") as examples_fp:
-    json.dump(examples, examples_fp, indent=4)
-
-with open("build/keystone/info.min.json", "w") as site_index_info:
-    common.write_min_json(info, site_index_info)
+boards_data = [board.lower() for board in boards_data]
 
 with open("build/keystone/sources.min.json", "w") as sources_fp:
     common.write_min_json(sources, sources_fp)
 
 with open("build/keystone/subjects.min.json", "w") as subjects_fp:
-    common.write_min_json(subjects, subjects_fp)
+    common.write_min_json(subjects_data, subjects_fp)
+
+with open("build/keystone/boards.min.json", "w") as boards_fp:
+    common.write_min_json(boards_data, boards_fp)
+
+with open("build/keystone/langs.min.json", "w") as langs_fp:
+    common.write_min_json(langs, langs_fp)
 
 # Create grades
 grades: list = []
@@ -70,19 +67,23 @@ for dirpath, boards, _ in walker:
         print(f"Analysing grade {grade} with boards {boards}")
 
         for board in boards:
-            # Check if we are iterating over a supported board where info["boards"] is all supported boards as per info.yaml
-            if board.upper() not in info["boards"]:
-                print(f"WARNING: {board.upper()} not in {info['boards']}")
+            # Check if we are iterating over a supported board where boards is all supported boards as per boards.yaml
+            if board.lower() not in boards_data:
+                print(f"WARNING: {board.upper()} not in core/boards.yaml ({boards})")
                 continue
 
             board = board.lower()
-            grade_boards[grade].append(board)
+            grade_boards[grade].append(board.lower())
         
             print(f"Found board {board.upper()}")
                 
             board = board.lower()
             _, subjects, _ = next(walker)
             for subject in subjects:
+                if subject.lower() not in subjects_data.keys():
+                    print(f"WARNING: {subject.lower()} not in core/subjects.yaml")
+                    continue
+
                 print(f"Found subject {subject} in board {board.upper()}")
 
                 subject_dir = os.path.join(dirpath, board, subject)
@@ -116,7 +117,7 @@ for dirpath, boards, _ in walker:
                             chapter_res[key] = []
 
                     # Write all the files to the needed places
-                    build_chapter_dir = subject_dir.replace("grades", "build/grades", 1)
+                    build_chapter_dir = chapter_dir.replace("grades", "build/grades", 1)
                     pathlib.Path(build_chapter_dir).mkdir(parents=True)
 
                     with open(os.path.join(build_chapter_dir, "info.min.json"), "w") as chapter_info_json:

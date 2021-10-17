@@ -12,6 +12,12 @@ platforms:
       - en
       - hi
     creator: "Khan Academy"
+  vedantu:
+    name: "Vedantu"
+    langs:
+      - en
+      - hi
+    creator: "Vedantu"
   phet:
     name: "PhET"
     langs:

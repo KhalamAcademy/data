@@ -1,28 +1,4 @@
-# Just basic info and metadata for reference in the site
-
-# Supported boards
-boards:
-  - CBSE
-
-# All languages we support
-langs:
-  en:
-    name: Englsh
-  hi:
-    name: Hindi
-  ta:
-    name: Tamil
-
-# All the grades that are currently supported
-grades:
-  6:
-    name: "Grade 6"
-    boards:
-      - CBSE
-    langs:
-      - en
-      - hi
-      - ta
+# Just basic metadata for reference in the site
 
 # Example formats for future reference
 examples:

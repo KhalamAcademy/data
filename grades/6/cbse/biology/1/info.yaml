@@ -9,3 +9,7 @@ tags:
 
 # If omitted, gen_info.py will automatically use the first tag as the primary tag
 primary-tag: food
+
+subject: biology
+grade: 6
+board: cbse

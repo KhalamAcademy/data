@@ -1,3 +1,5 @@
 # Channels to aggregate data from
 
-learnNext: UCB6ztajkwjXivfuI3M5tpEw
+learnNext: 
+  channel-id: UCB6ztajkwjXivfuI3M5tpEw
+  scraper: lnscrape

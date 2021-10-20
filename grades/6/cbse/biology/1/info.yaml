@@ -4,11 +4,20 @@ name: "Food: Where Does it Come From?"
 desc: Have you ever wondered where food comes from?
 study-time: 10:30
 tags: 
-  - food
-  - source
+  accept:
+    - food
+    - source
+  reject:
 
-# If omitted, gen_info.py will automatically use the first tag as the primary tag
+# If omitted, gen_info.py will automatically use the first tag as the primary tag in accept
 primary-tag: food
+
+# Subtopic tags
+subtopic-tags:
+  main:
+    accept:
+    reject:
+      - deficiency
 
 subject: biology
 grade: 6

@@ -18,6 +18,10 @@ subtopic-tags:
     accept:
     reject:
       - deficiency
+  deficiency:
+    accept:
+      - deficiency
+    reject:  
 
 subject: biology
 grade: 6

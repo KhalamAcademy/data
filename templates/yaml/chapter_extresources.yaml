@@ -1,7 +1,6 @@
 # Chapter extra resources
 
 subtopic:
-  name: Name of subtopic
   embibe: 
     links: # All links under links will be parsed to get their title during compilation
       - link: embibeVideo1

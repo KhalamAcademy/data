@@ -1,8 +1,6 @@
 # Chapter ext resources
 
 main:
-  name: $name
-
   embibe:
     - link: https://www.embibe.com/video/summary/5912165?format_reference=5ec5867a0c88fe5860961943&topic_learnpath_name=cbse--6th+cbse--science--biology--components+of+food--food+and+its+components
 
@@ -21,5 +19,3 @@ main:
 
   advanced:
     - link: https://www.khanacademy.org/humanities/whp-origins/era-5-the-first-global-age/53-the-colombian-exchange-betaa/a/read-crops-that-grew-the-world-beta
-deficiency:
-  name: Deficiency Diseases

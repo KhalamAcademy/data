@@ -1,14 +1,15 @@
-id: 'f5a07301-732d-4031-9c54-775e71589095'
+# Access ID
+id: "{{id}}"
 
 # Chapter info
-name: "Food: Where Does it Come From?"
+name: "{{name}}"
 study-time: 0
 
 # Topics
 topics:
   # The main topic is always the base topic that is used
   main:
-    name: $name # name is optional
+    name: $name # Optional
     accept:
       - food
       - source

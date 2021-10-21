@@ -1,4 +1,4 @@
-# Khalam Academy Core Data
+# Kalam Academy Core Data
 
 This is where the core aggregated data is stored as well as helper scripts.
 
@@ -6,7 +6,7 @@ This is where the core aggregated data is stored as well as helper scripts.
 
 ## Contributing
 
-Once you have setup KhalamAcademy/site:
+Once you have setup KalamAcademy/site:
 
 Run ``python manage.py data add`` to create a new chapter in a subject or to create a new subject itself or a new grade in a existing subject.
 

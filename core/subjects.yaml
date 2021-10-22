@@ -19,3 +19,18 @@ chemistry:
   name: Chemistry
   desc: Chemistry is the study of the properties and behavior of matter
   image: https://upload.wikimedia.org/wikipedia/commons/e/e1/Chemicals_in_flasks.jpg
+test:
+  name: test
+  desc: test
+  image: test
+  alias:
+  supported-grades:
+  - 6
+  - 7
+mew:
+  name: test
+  desc: testing testing
+  image: https://a.com
+  alias: testalias
+  supported-grades:
+  - 1

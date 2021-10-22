@@ -1,5 +1,5 @@
 # Access ID
-id: "{{id}}"
+iname: "{{iname}}"
 
 # Chapter info
 name: "{{name}}"

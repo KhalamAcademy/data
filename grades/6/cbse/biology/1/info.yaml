@@ -1,7 +1,7 @@
 iname: food-where-it-comes-from
 
 # Chapter info
-name: "Food: Where Does it Come From?"
+name: 'Food: Where Does it Come From?'
 study-time: 0
 
 # Topics
@@ -10,14 +10,14 @@ topics:
   main:
     name: $name # name is optional
     accept:
-      - food
-      - source
+    - food
+    - source
     reject:
-      - deficiency
+    - deficiency
     subtopics:
   deficiency:
     name: Deficiency Diseases
     accept:
-      - deficiency
+    - deficiency
     reject:
     subtopics:

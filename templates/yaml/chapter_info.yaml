@@ -16,9 +16,3 @@ topics:
     reject:
       - deficiency
     subtopics:
-  deficiency:
-    name: Deficiency Diseases
-    accept:
-      - deficiency
-    reject:
-    subtopics:

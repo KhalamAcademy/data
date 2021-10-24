@@ -15,9 +15,19 @@ topics:
     reject:
     - deficiency
     subtopics:
+      main:
+        name: Test
+        accept:
+        reject:
+        subtopics:
   deficiency:
     name: Deficiency Diseases
     accept:
     - deficiency
+    reject:
+    subtopics:
+  mew:
+    name: Test
+    accept:
     reject:
     subtopics:

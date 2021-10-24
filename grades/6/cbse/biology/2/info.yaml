@@ -1,0 +1,23 @@
+# Access ID
+iname: testing-karat
+
+# Chapter info
+name: Testing 2.0
+study-time: 0
+
+# Topics
+topics:
+  # The main topic is always the base topic that is used
+  main:
+    name: $name # Optional
+    accept:
+    - food
+    - source
+    reject:
+    - deficiency
+    subtopics:
+      main:
+        name: main
+        accept:
+        reject:
+        subtopics:

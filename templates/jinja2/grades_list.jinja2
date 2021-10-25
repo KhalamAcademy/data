@@ -1,10 +1,21 @@
-{%- for grade in grades -%}
-    <a onclick="showHideGrade({{grade}})" href="#" style="font-size: 45px; color: black" class="grade" id="grade{{grade}}">{% if lang == "en" %}Grade {% elif lang == "hi" %}Standard (पद) {% endif %}{{ grade }}</a>
-    {%- for board in grade_boards[grade] -%}
-        <div id="grade{{grade}}-container">
-            <ul class="boards grade{{grade}}" id="grade{{grade}}-{{loop.index}}">
-                <li class="board" id="grade{{grade}}-{{board.lower()}}"><a style="font-size: 37px" href="#" onclick="getBoard({{grade}}, '{{board.lower()}}')">{{ board.upper() }}</a></li>
-            </ul>
+<p class="text-center">Choose your grade and we'll help teach you in a well-rounded way!</p>
+<div class="accordion" id="grade-list">
+    {%- for board in boards %}
+        <div class="card" id="gradecard{{board}}">
+            <div class="card-header" data-toggle="collapse" aria-controls="collapse-grade{{board}}" data-target="#collapse-grade{{board}}" id="grade{{board}}">
+                <h4 id="grade{{board}}" class="mb-0" style="text-align: center !important; margin: 0 auto;">
+                        {{board.upper()}}
+                </h4>
+            </div>
+            <div id="collapse-grade{{board}}" class="collapse {% if loop.index == 1 %}show{% endif %}" aria-labelledby="grade{{board}}" data-parent="#grade-list">
+                <div class="card-body">
+                    {%- for grade in grades -%}
+                        {%- if board in grade_boards[grade] -%}
+                            <a style="height: 60px !important; font-size: 20px;" href="/learn.html?grade={{grade}}&board={{board.lower()}}" class="card-link btn-block btn-lg">Grade {{grade}}</a>
+                        {%- endif -%}
+                    {%- endfor -%}
+                </div>
+            </div>
         </div>
     {%- endfor -%}
-{%- endfor -%}
+</div>

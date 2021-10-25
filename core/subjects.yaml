@@ -9,14 +9,17 @@
 
 biology:
   name: Biology
+  alias: science
   desc: Biology is the study of life
   image: https://upload.wikimedia.org/wikipedia/commons/7/79/Thompson%27s_Gazelle.jpeg
 physics:
   name: Physics
+  alias: science
   desc: Physics is the study of motion and the world around you
   image: https://upload.wikimedia.org/wikipedia/commons/9/91/Bruce_McCandless_II_during_EVA_in_1984.jpg
 chemistry:
   name: Chemistry
+  alias: science
   desc: Chemistry is the study of the properties and behavior of matter
   image: https://upload.wikimedia.org/wikipedia/commons/e/e1/Chemicals_in_flasks.jpg
 test:
@@ -31,6 +34,16 @@ mew:
   name: test
   desc: testing testing
   image: https://a.com
-  alias: testalias
+  alias: 
   supported-grades:
   - 1
+  - 6
+science:
+  name: Science
+  desc: Science is a branch of knowledge that studies everything about the world
+  image: https://upload.wikimedia.org/wikipedia/commons/6/6f/CMB_Timeline300_no_WMAP.jpg
+  alias:
+  supported-grades:
+  - 6
+  - 7
+  - 8

@@ -1,0 +1,18 @@
+<div class="accordion" id="subject-list">
+    {%- for subject, data in subjects.items() %}
+        <div class="card" id="subjectcard{{subject}}">
+            <div class="card-header" data-toggle="collapse" aria-controls="collapse-subject{{subject}}" data-target="#collapse-subject{{subject}}" id="subject{{subject}}">
+                <h4 id="subject{{subject}}" class="mb-0">
+                        <img src="{{data.image}}" width="25px" height="25px"/> {{data.name}}
+                </h4>
+            </div>
+            <div id="collapse-subject{{subject}}" class="subject-collapse collapse {% if loop.index == 1 %}top-subject{% endif %}" aria-labelledby="subject{{subject}}" data-parent="#subject-list">
+                <div class="card-body">
+                    <p class="text-center" style="font-size: 18px">{{data.desc}}</p>
+                    <div id="subject-body-{{subject}}">
+                    </div>
+                </div>
+            </div>
+        </div>
+    {%- endfor -%}
+</div>

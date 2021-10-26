@@ -1,0 +1,21 @@
+team:
+  Sanandan:
+    role: Founder + CEO + Software Engineer
+    bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+  Sashikumar:
+    role: Advisor
+    bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+  Rakesh:
+    role: Advisor
+    bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+ourvision: >
+  We want to provide high quality hollistic education for all people. YouTube and other sources already have tons of content but no good organisation.
+  Also. different teachers have different strengths and weaknesses and different styles of teaching. We wanted to combine all of these resources and provide
+  a well-rounded and personalised curriculum (note that personalisation is only available when logged in and when our servers are up). We believe in free education
+  for all students.
+
+  Shiksha360 is fully non-profit and is open-sourced under the MIT. Contributions are welcome and encouraged. Feel free to share any resource you wish to contribute
+  <a href="https://github.com/shiksha360-site/site/issues/new/choose">here</a>

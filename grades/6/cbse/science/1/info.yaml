@@ -1,8 +1,8 @@
 # Access ID
-iname: "test-topic"
+iname: food-sources
 
 # Chapter info
-name: "Testing science topic"
+name: 'Food: Where Does it Come From?'
 study-time: 0
 
 # Topics
@@ -11,8 +11,14 @@ topics:
   main:
     name: $name # Optional
     accept:
-      - food
-      - source
+    - food
+    - source
     reject:
-      - deficiency
+    - deficiency
+    subtopics:
+  deficiency:
+    name: Deficiency Diseases
+    accept:
+    - deficiency
+    reject:
     subtopics:

@@ -12,10 +12,24 @@ team:
     bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 ourvision: >
-  We want to provide high quality hollistic education for all people. YouTube and other sources already have tons of content but no good organisation.
-  Also. different teachers have different strengths and weaknesses and different styles of teaching. We wanted to combine all of these resources and provide
-  a well-rounded and personalised curriculum (note that personalisation is only available when logged in and when our servers are up). We believe in free education
-  for all students.
+  When we started looking into education as a whole, we realized three problems:
 
-  Shiksha360 is fully non-profit and is open-sourced under the MIT. Contributions are welcome and encouraged. Feel free to share any resource you wish to contribute
-  <a href="https://github.com/shiksha360-site/site/issues/new/choose">here</a>
+    <ul>
+      <li>Different teachers taught subjects differently and have different styles of teaching. Each teacher also had varying strengths and weakness while they taught</li>
+      <li>There are many high-quality resources already on the internet, but not many people have the time or knowledge to determine whether a resource was high quality and correct or not</li> 
+      <li>Most teachers only focus on one aspect of learning. For example, if a teacher focuses on solving problems and 'whiteboard-style learning', they don't focus much on experiments and interaction which is not a truly complete learning experience. Many students also get bored of having the same teacher over and over as well.</li>
+      <li>YouTube and other sources already have tons of content but no good organisation.</li>
+    </ul>
+  
+  At Shiksha360, we want to take the already high quality resources available throughout the web and provide students with high-quality resources from the web and personalise this based on what type of learning a student enjoys.
+  <br/>
+  Our aim is to provide high-quality hollistic education for all people by combining all of the many resources already available to make a well-rounded and 
+  personalised curriculum*
+  <br/>
+  <br/>
+  Lastly, we believe in free education for all students. For that reason, Shiksha360 is fully non-profit and is open-sourced under the MIT. Contributions are welcome and encouraged. Feel free to share any resource you wish to contribute
+  <a href="https://github.com/shiksha360-site/site/issues/new/choose">here</a>. 
+  <br/>
+  <br/>
+  <br/>
+  <small><em>Note that personalisation is only available when logged in. This is subject to potential downtime and maintenance</em></small>

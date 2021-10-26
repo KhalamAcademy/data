@@ -1,0 +1,21 @@
+{
+    "iname": "test",
+    "name": "Test Chapter",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Test Chapter",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "biology",
+    "grade": 7,
+    "board": "cbse"
+}

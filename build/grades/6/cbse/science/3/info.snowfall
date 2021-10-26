@@ -1,0 +1,21 @@
+{
+    "iname": "fiber-to-fabric",
+    "name": "Fibre to Fabric",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Fibre to Fabric",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 6,
+    "board": "cbse"
+}

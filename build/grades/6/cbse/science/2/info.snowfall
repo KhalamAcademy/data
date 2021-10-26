@@ -1,0 +1,21 @@
+{
+    "iname": "food-components",
+    "name": "Components of Food",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Components of Food",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 6,
+    "board": "cbse"
+}

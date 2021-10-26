@@ -1,0 +1,29 @@
+{
+    "iname": "food-sources",
+    "name": "Food: Where Does it Come From?",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Food: Where Does it Come From?",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        },
+        "deficiency": {
+            "name": "Deficiency Diseases",
+            "accept": [
+                "deficiency"
+            ],
+            "reject": [],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 6,
+    "board": "cbse"
+}

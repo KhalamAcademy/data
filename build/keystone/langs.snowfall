@@ -1,0 +1,13 @@
+{
+    "langs": {
+        "en": {
+            "name": "Englsh"
+        },
+        "hi": {
+            "name": "Hindi"
+        },
+        "ta": {
+            "name": "Tamil"
+        }
+    }
+}

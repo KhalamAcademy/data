@@ -1,0 +1,37 @@
+{
+    "platforms": {
+        "embibe": {
+            "name": "Embibe",
+            "langs": [
+                "en",
+                "hi"
+            ],
+            "creator": "Embibe"
+        },
+        "khan": {
+            "name": "Khan Academy",
+            "langs": [
+                "en",
+                "hi"
+            ],
+            "creator": "Khan Academy"
+        },
+        "vedantu": {
+            "name": "Vedantu",
+            "langs": [
+                "en",
+                "hi"
+            ],
+            "creator": "Vedantu"
+        },
+        "phet": {
+            "name": "PhET",
+            "langs": [
+                "en",
+                "hi",
+                "ta"
+            ],
+            "creator": "University Of Colorado"
+        }
+    }
+}

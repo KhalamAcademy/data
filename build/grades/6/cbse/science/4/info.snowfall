@@ -1,0 +1,16 @@
+{
+    "iname": "sorting-materials",
+    "name": "Sorting Materials into Groups",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Sorting Materials into Groups",
+            "accept": [],
+            "reject": [],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 6,
+    "board": "cbse"
+}

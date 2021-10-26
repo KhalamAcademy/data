@@ -10,5 +10,9 @@
     "3": {
         "name": "Fibre to Fabric",
         "iname": "fiber-to-fabric"
+    },
+    "4": {
+        "name": "Sorting Materials into Groups",
+        "iname": "sorting-materials"
     }
 }

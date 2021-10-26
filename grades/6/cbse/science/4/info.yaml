@@ -1,0 +1,15 @@
+# Access ID
+iname: sorting-materials
+
+# Chapter info
+name: Sorting Materials into Groups
+study-time: 0
+
+# Topics
+topics:
+  # The main topic is always the base topic that is used
+  main:
+    name: $name
+    accept:
+    reject:
+    subtopics:

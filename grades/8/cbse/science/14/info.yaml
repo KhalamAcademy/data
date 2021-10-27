@@ -1,0 +1,18 @@
+# Access ID
+iname: "chemical-effects-electric-current"
+
+# Chapter info
+name: "Chemical Effects of Electric Current"
+study-time: 0
+
+# Topics
+topics:
+  # The main topic is always the base topic that is used
+  main:
+    name: $name # Optional
+    accept:
+      - food
+      - source
+    reject:
+      - deficiency
+    subtopics:

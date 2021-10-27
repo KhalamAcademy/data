@@ -1,0 +1,21 @@
+{
+    "iname": "coal-petroleum",
+    "name": "Coal and Petroleum",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Coal and Petroleum",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 8,
+    "board": "cbse"
+}

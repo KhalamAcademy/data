@@ -1,0 +1,74 @@
+{
+    "1": {
+        "name": "Crop Production and Management",
+        "iname": "crop-production-management"
+    },
+    "2": {
+        "name": "Microorganisms: Friend and Foe",
+        "iname": "microorganisms-friend-foe"
+    },
+    "3": {
+        "name": "Synthetic Fibres and Plastics",
+        "iname": "synthetic-fibres-plastics"
+    },
+    "4": {
+        "name": "Materials: Metals and Non-Metals",
+        "iname": "materials-metals-non-metals"
+    },
+    "5": {
+        "name": "Coal and Petroleum",
+        "iname": "coal-petroleum"
+    },
+    "6": {
+        "name": "Combustion and Flame",
+        "iname": "combustion-flame"
+    },
+    "7": {
+        "name": "Conservation of Plants and Animals",
+        "iname": "conservation-plants-animals"
+    },
+    "8": {
+        "name": "Cell \u2014 Structure and Functions",
+        "iname": "cell-\u2014-structure-functions"
+    },
+    "9": {
+        "name": "Reproduction in Animals",
+        "iname": "reproduction-animals"
+    },
+    "10": {
+        "name": "Reaching the Age of Adolescence",
+        "iname": "reaching-age-adolescence"
+    },
+    "11": {
+        "name": "Force and Pressure",
+        "iname": "force-pressure"
+    },
+    "12": {
+        "name": "Friction",
+        "iname": "friction"
+    },
+    "13": {
+        "name": "Sound",
+        "iname": "sound"
+    },
+    "14": {
+        "name": "Chemical Effects of Electric Current",
+        "iname": "chemical-effects-electric-current"
+    },
+    "15": {
+        "name": "Some Natural Phenomena",
+        "iname": "some-natural-phenomena"
+    },
+    "16": {
+        "name": "Light",
+        "iname": "light"
+    },
+    "17": {
+        "name": "Stars and The Solar System",
+        "iname": "stars-the-solar-system"
+    },
+    "18": {
+        "name": "Pollution of Air and Water",
+        "iname": "pollution-air-water"
+    }
+}

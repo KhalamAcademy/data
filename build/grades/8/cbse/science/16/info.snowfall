@@ -1,0 +1,21 @@
+{
+    "iname": "light",
+    "name": "Light",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Light",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 8,
+    "board": "cbse"
+}

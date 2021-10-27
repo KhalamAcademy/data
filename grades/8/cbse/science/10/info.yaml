@@ -1,0 +1,18 @@
+# Access ID
+iname: "reaching-age-adolescence"
+
+# Chapter info
+name: "Reaching the Age of Adolescence"
+study-time: 0
+
+# Topics
+topics:
+  # The main topic is always the base topic that is used
+  main:
+    name: $name # Optional
+    accept:
+      - food
+      - source
+    reject:
+      - deficiency
+    subtopics:

@@ -1,0 +1,21 @@
+{
+    "iname": "some-natural-phenomena",
+    "name": "Some Natural Phenomena",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Some Natural Phenomena",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 8,
+    "board": "cbse"
+}

@@ -1,0 +1,21 @@
+{
+    "iname": "crop-production-management",
+    "name": "Crop Production and Management",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Crop Production and Management",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 8,
+    "board": "cbse"
+}

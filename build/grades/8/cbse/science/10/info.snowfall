@@ -1,0 +1,21 @@
+{
+    "iname": "reaching-age-adolescence",
+    "name": "Reaching the Age of Adolescence",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Reaching the Age of Adolescence",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 8,
+    "board": "cbse"
+}

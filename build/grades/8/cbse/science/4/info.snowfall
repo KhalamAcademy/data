@@ -1,0 +1,21 @@
+{
+    "iname": "materials-metals-non-metals",
+    "name": "Materials: Metals and Non-Metals",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Materials: Metals and Non-Metals",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 8,
+    "board": "cbse"
+}

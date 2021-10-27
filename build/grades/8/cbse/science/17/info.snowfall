@@ -1,0 +1,21 @@
+{
+    "iname": "stars-the-solar-system",
+    "name": "Stars and The Solar System",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Stars and The Solar System",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 8,
+    "board": "cbse"
+}

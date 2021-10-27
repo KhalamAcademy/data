@@ -1,0 +1,21 @@
+{
+    "iname": "conservation-plants-animals",
+    "name": "Conservation of Plants and Animals",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Conservation of Plants and Animals",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 8,
+    "board": "cbse"
+}

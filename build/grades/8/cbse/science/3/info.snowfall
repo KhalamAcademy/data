@@ -1,0 +1,21 @@
+{
+    "iname": "synthetic-fibres-plastics",
+    "name": "Synthetic Fibres and Plastics",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Synthetic Fibres and Plastics",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 8,
+    "board": "cbse"
+}

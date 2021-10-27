@@ -1,0 +1,21 @@
+{
+    "iname": "force-pressure",
+    "name": "Force and Pressure",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Force and Pressure",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 8,
+    "board": "cbse"
+}

@@ -1,0 +1,21 @@
+{
+    "iname": "microorganisms-friend-foe",
+    "name": "Microorganisms: Friend and Foe",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Microorganisms: Friend and Foe",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 8,
+    "board": "cbse"
+}

@@ -1,0 +1,21 @@
+{
+    "iname": "reproduction-animals",
+    "name": "Reproduction in Animals",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Reproduction in Animals",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 8,
+    "board": "cbse"
+}

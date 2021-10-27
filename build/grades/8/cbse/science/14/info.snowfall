@@ -1,0 +1,21 @@
+{
+    "iname": "chemical-effects-electric-current",
+    "name": "Chemical Effects of Electric Current",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Chemical Effects of Electric Current",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 8,
+    "board": "cbse"
+}

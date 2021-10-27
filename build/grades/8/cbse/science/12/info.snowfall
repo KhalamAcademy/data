@@ -1,0 +1,21 @@
+{
+    "iname": "friction",
+    "name": "Friction",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Friction",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 8,
+    "board": "cbse"
+}

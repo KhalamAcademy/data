@@ -1,0 +1,21 @@
+{
+    "iname": "pollution-air-water",
+    "name": "Pollution of Air and Water",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Pollution of Air and Water",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 8,
+    "board": "cbse"
+}

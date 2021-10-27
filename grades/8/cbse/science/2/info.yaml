@@ -1,0 +1,18 @@
+# Access ID
+iname: "microorganisms-friend-foe"
+
+# Chapter info
+name: "Microorganisms: Friend and Foe"
+study-time: 0
+
+# Topics
+topics:
+  # The main topic is always the base topic that is used
+  main:
+    name: $name # Optional
+    accept:
+      - food
+      - source
+    reject:
+      - deficiency
+    subtopics:

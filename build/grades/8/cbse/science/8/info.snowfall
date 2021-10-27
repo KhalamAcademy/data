@@ -1,0 +1,21 @@
+{
+    "iname": "cell-\u2014-structure-functions",
+    "name": "Cell \u2014 Structure and Functions",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Cell \u2014 Structure and Functions",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 8,
+    "board": "cbse"
+}

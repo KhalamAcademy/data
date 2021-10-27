@@ -1,0 +1,21 @@
+{
+    "iname": "body-movements",
+    "name": "Body Movements",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Body Movements",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 6,
+    "board": "cbse"
+}

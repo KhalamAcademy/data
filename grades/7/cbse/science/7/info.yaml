@@ -1,0 +1,18 @@
+# Access ID
+iname: "weather-climate-adaptation-animals-climate"
+
+# Chapter info
+name: "Weather, Climate and Adaptation of Animals to Climate"
+study-time: 0
+
+# Topics
+topics:
+  # The main topic is always the base topic that is used
+  main:
+    name: $name # Optional
+    accept:
+      - food
+      - source
+    reject:
+      - deficiency
+    subtopics:

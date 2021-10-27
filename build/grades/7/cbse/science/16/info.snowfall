@@ -1,0 +1,21 @@
+{
+    "iname": "water-a-precious-resource",
+    "name": "Water: A Precious Resource",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Water: A Precious Resource",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 7,
+    "board": "cbse"
+}

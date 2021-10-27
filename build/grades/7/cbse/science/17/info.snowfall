@@ -1,0 +1,21 @@
+{
+    "iname": "forest-lifeline",
+    "name": "Forest: our Lifeline",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Forest: our Lifeline",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 7,
+    "board": "cbse"
+}

@@ -1,0 +1,21 @@
+{
+    "iname": "physical-chemical-changes",
+    "name": "Physical and Chemical Changes",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Physical and Chemical Changes",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 7,
+    "board": "cbse"
+}

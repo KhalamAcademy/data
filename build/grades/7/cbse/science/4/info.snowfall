@@ -1,0 +1,21 @@
+{
+    "iname": "heat",
+    "name": "Heat",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Heat",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 7,
+    "board": "cbse"
+}

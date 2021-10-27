@@ -1,0 +1,21 @@
+{
+    "iname": "nutrition-animals",
+    "name": "Nutrition in Animals",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Nutrition in Animals",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 7,
+    "board": "cbse"
+}

@@ -1,0 +1,21 @@
+{
+    "iname": "reproduction-plants",
+    "name": "Reproduction in Plants",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Reproduction in Plants",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 7,
+    "board": "cbse"
+}

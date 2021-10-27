@@ -1,0 +1,21 @@
+{
+    "iname": "electric-current-its-effects",
+    "name": "Electric Current and Its Effects",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Electric Current and Its Effects",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 7,
+    "board": "cbse"
+}

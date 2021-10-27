@@ -1,0 +1,21 @@
+{
+    "iname": "changes-around-us",
+    "name": "Changes Around Us",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Changes Around Us",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 6,
+    "board": "cbse"
+}

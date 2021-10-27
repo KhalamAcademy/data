@@ -1,0 +1,21 @@
+{
+    "iname": "motion-and-measurement",
+    "name": "Motion and Measurement of Distances",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Motion and Measurement of Distances",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 6,
+    "board": "cbse"
+}

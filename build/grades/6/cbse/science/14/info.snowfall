@@ -1,0 +1,21 @@
+{
+    "iname": "water",
+    "name": "Water",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Water",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 6,
+    "board": "cbse"
+}

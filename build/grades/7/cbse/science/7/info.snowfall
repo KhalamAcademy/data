@@ -1,0 +1,21 @@
+{
+    "iname": "weather-climate-adaptation-animals-climate",
+    "name": "Weather, Climate and Adaptation of Animals to Climate",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Weather, Climate and Adaptation of Animals to Climate",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 7,
+    "board": "cbse"
+}

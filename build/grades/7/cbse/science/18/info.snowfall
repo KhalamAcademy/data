@@ -1,0 +1,21 @@
+{
+    "iname": "waste-water-story",
+    "name": "Waste Water Story",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Waste Water Story",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 7,
+    "board": "cbse"
+}

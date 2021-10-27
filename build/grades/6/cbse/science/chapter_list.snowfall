@@ -14,5 +14,53 @@
     "4": {
         "name": "Sorting Materials into Groups",
         "iname": "sorting-materials"
+    },
+    "5": {
+        "name": "Separation of Substances",
+        "iname": "separation-substances"
+    },
+    "6": {
+        "name": "Changes Around Us",
+        "iname": "changes-around-us"
+    },
+    "7": {
+        "name": "Getting to Know plants",
+        "iname": "learning-about-plants"
+    },
+    "8": {
+        "name": "Body Movements",
+        "iname": "body-movements"
+    },
+    "9": {
+        "name": "The living organisms and their surroundings",
+        "iname": "living-organisms"
+    },
+    "10": {
+        "name": "Motion and Measurement of Distances",
+        "iname": "motion-and-measurement"
+    },
+    "11": {
+        "name": "Light, Shadows and Reflections",
+        "iname": "light-shadows-reflections"
+    },
+    "12": {
+        "name": "Electricity and Circuits",
+        "iname": "electricity-circuits"
+    },
+    "13": {
+        "name": "Fun With Magnets",
+        "iname": "fun-with-magnets"
+    },
+    "14": {
+        "name": "Water",
+        "iname": "water"
+    },
+    "15": {
+        "name": "Air Around Us",
+        "iname": "air-around-us"
+    },
+    "16": {
+        "name": "Garbage In, Garbage Out",
+        "iname": "garbage-in-garbage-out"
     }
 }

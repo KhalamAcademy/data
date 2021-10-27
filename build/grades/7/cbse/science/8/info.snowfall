@@ -1,0 +1,21 @@
+{
+    "iname": "winds-storms-cyclones",
+    "name": "Winds, Storms, and Cyclones",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Winds, Storms, and Cyclones",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 7,
+    "board": "cbse"
+}

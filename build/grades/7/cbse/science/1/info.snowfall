@@ -1,0 +1,21 @@
+{
+    "iname": "nutrition-plants",
+    "name": "Nutrition in Plants",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Nutrition in Plants",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 7,
+    "board": "cbse"
+}

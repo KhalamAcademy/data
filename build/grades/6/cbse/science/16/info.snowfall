@@ -1,0 +1,21 @@
+{
+    "iname": "garbage-in-garbage-out",
+    "name": "Garbage In, Garbage Out",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Garbage In, Garbage Out",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 6,
+    "board": "cbse"
+}

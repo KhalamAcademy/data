@@ -1,0 +1,21 @@
+{
+    "iname": "soil",
+    "name": "Soil",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Soil",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 7,
+    "board": "cbse"
+}

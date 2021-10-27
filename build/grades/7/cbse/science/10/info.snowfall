@@ -1,0 +1,21 @@
+{
+    "iname": "respiration-organisms",
+    "name": "Respiration in Organisms",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Respiration in Organisms",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 7,
+    "board": "cbse"
+}

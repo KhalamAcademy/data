@@ -1,0 +1,21 @@
+{
+    "iname": "learning-about-plants",
+    "name": "Getting to Know plants",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Getting to Know plants",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 6,
+    "board": "cbse"
+}

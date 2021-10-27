@@ -1,0 +1,21 @@
+{
+    "iname": "separation-substances",
+    "name": "Separation of Substances",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Separation of Substances",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 6,
+    "board": "cbse"
+}

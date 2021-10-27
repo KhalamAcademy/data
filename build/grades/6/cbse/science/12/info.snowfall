@@ -1,0 +1,21 @@
+{
+    "iname": "electricity-circuits",
+    "name": "Electricity and Circuits",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Electricity and Circuits",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 6,
+    "board": "cbse"
+}

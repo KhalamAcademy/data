@@ -22,20 +22,14 @@
         "desc": "mew",
         "image": "test",
         "alias": null,
-        "supported-grades": [
-            6,
-            7
-        ]
+        "supported-grades": null
     },
     "mew": {
         "name": "test",
         "desc": "testing testing",
         "image": "https://a.com",
         "alias": null,
-        "supported-grades": [
-            1,
-            6
-        ]
+        "supported-grades": null
     },
     "science": {
         "name": "Science",

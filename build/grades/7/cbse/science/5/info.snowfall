@@ -1,0 +1,21 @@
+{
+    "iname": "acids-bases-salts",
+    "name": "Acids, Bases, and Salts",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Acids, Bases, and Salts",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 7,
+    "board": "cbse"
+}

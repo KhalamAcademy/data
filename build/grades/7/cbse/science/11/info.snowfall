@@ -1,0 +1,21 @@
+{
+    "iname": "transportation-animals-plants",
+    "name": "Transportation in Animals and Plants",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Transportation in Animals and Plants",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 7,
+    "board": "cbse"
+}

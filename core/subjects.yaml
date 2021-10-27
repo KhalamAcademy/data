@@ -28,16 +28,12 @@ test:
   image: test
   alias:
   supported-grades:
-  - 6
-  - 7
 mew:
   name: test
   desc: testing testing
   image: https://a.com
   alias: 
   supported-grades:
-  - 1
-  - 6
 science:
   name: Science
   desc: Science is a branch of knowledge that studies everything about the world

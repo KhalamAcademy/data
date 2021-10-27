@@ -1,0 +1,21 @@
+{
+    "iname": "living-organisms",
+    "name": "The living organisms and their surroundings",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "The living organisms and their surroundings",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 6,
+    "board": "cbse"
+}

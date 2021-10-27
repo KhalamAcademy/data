@@ -1,0 +1,21 @@
+{
+    "iname": "motion-time",
+    "name": "Motion and Time",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Motion and Time",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 7,
+    "board": "cbse"
+}

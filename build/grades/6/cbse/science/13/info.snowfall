@@ -1,0 +1,21 @@
+{
+    "iname": "fun-with-magnets",
+    "name": "Fun With Magnets",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "Fun With Magnets",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 6,
+    "board": "cbse"
+}

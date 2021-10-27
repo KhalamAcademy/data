@@ -1,0 +1,38 @@
+{
+    "0": {
+        "doc": "Lectures",
+        "enum_name": "whiteboard"
+    },
+    "1": {
+        "doc": "Animated Videos",
+        "enum_name": "animated"
+    },
+    "2": {
+        "doc": "Lab Videos",
+        "enum_name": "lab"
+    },
+    "3": {
+        "doc": "Interactive Experiments",
+        "enum_name": "interactive"
+    },
+    "4": {
+        "doc": "Class notes",
+        "enum_name": "class_note"
+    },
+    "5": {
+        "doc": "Revision Notes",
+        "enum_name": "revision_note"
+    },
+    "6": {
+        "doc": "Take A Test",
+        "enum_name": "mock_test"
+    },
+    "7": {
+        "doc": "Real World",
+        "enum_name": "real_world"
+    },
+    "8": {
+        "doc": "Problem solving",
+        "enum_name": "problem_solving"
+    }
+}

@@ -16,6 +16,11 @@ topics:
     reject:
     - deficiency
     subtopics:
+      main:
+        name: Test Subtopic
+        accept:
+        reject:
+        subtopics:
   deficiency:
     name: Deficiency Diseases
     accept:

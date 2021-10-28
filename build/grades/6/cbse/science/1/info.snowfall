@@ -12,7 +12,14 @@
             "reject": [
                 "deficiency"
             ],
-            "subtopics": {}
+            "subtopics": {
+                "main": {
+                    "name": "Test Subtopic",
+                    "accept": null,
+                    "reject": null,
+                    "subtopics": null
+                }
+            }
         },
         "deficiency": {
             "name": "Deficiency Diseases",

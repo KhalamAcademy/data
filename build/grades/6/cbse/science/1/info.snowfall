@@ -13,7 +13,7 @@
                 "deficiency"
             ],
             "subtopics": {
-                "main": {
+                "main-rn": {
                     "name": "Test Subtopic",
                     "accept": null,
                     "reject": null,

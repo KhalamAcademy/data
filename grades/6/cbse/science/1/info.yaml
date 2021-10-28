@@ -7,8 +7,8 @@ study-time: 0
 
 # Topics
 topics:
-  # The main topic is always the base topic that is used
-  main:
+  # The _root topic is always the base topic that is used. For backwards compat, main is autoconverted to _root
+  _root:
     name: $name # Optional
     accept:
     - food

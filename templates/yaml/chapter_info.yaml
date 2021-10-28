@@ -7,7 +7,7 @@ study-time: 0
 
 # Topics
 topics:
-  # The _root topic is always the base topic that is used. For backwards compatibility, main is autoconverted to root
+  # The main topic is always the base topic that is used.
   _root:
     name: $name # Optional
     accept:

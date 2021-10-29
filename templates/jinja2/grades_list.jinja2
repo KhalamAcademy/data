@@ -1,4 +1,3 @@
-<p class="text-center nomobile">Choose your grade and we'll help teach you in a well-rounded way!</p>
 <div class="accordion" id="grade-list">
     {%- for board in boards %}
         <div class="card" id="gradecard{{board}}">
@@ -8,10 +7,10 @@
                 </h4>
             </div>
             <div id="collapse-grade{{board}}" class="collapse {% if loop.index == 1 %}show{% endif %}" aria-labelledby="grade{{board}}" data-parent="#grade-list">
-                <div class="card-body">
+                <div class="card-body grade-container">
                     {%- for grade in grades -%}
                         {%- if board in grade_boards[grade] -%}
-                            <a style="height: 60px !important; font-size: 20px;" href="/learn.html?grade={{grade}}&board={{board.lower()}}" class="card-link btn-block btn-lg">Grade {{grade}}</a>
+                            <a href="/learn.html?grade={{grade}}&board={{board.lower()}}" class="grade-btn card-link btn btn-block btn-lg">Grade {{grade}}</a>
                         {%- endif -%}
                     {%- endfor -%}
                 </div>

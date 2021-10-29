@@ -1,0 +1,21 @@
+{
+    "iname": "mew",
+    "name": "test",
+    "study-time": 0,
+    "topics": {
+        "main": {
+            "name": "test",
+            "accept": [
+                "food",
+                "source"
+            ],
+            "reject": [
+                "deficiency"
+            ],
+            "subtopics": {}
+        }
+    },
+    "subject": "science",
+    "grade": 5,
+    "board": "cbse"
+}

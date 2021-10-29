@@ -1,8 +1,8 @@
 # Access ID
-iname: "{{iname}}"
+iname: "test"
 
 # Chapter info
-name: "{{name}}"
+name: "test"
 study-time: 0
 
 # Topics

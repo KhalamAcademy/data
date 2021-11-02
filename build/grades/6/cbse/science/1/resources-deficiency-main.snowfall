@@ -12,6 +12,7 @@
             },
             "resource_description": null,
             "resource_icon": "https://i.ytimg.com/vi/IVB2b-88lJQ/default.jpg",
+            "resource_lang": "en",
             "pos": 0
         }
     ],
@@ -28,6 +29,7 @@
             },
             "resource_description": null,
             "resource_icon": "https://i.ytimg.com/vi/0KP5ufnJ9FI/default.jpg",
+            "resource_lang": "en",
             "pos": 2
         },
         {
@@ -42,6 +44,7 @@
             },
             "resource_description": null,
             "resource_icon": "https://i.ytimg.com/vi/-D4VSa2g-O4/default.jpg",
+            "resource_lang": "en",
             "pos": 1
         }
     ],

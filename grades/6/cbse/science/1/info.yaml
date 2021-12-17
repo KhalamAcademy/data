@@ -22,3 +22,8 @@ topics:
     - deficiency
     reject:
     subtopics:
+  explore:
+    name: Explore!
+    accept:
+    reject:
+    subtopics:

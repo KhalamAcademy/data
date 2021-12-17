@@ -28,11 +28,11 @@
         "enum_name": "mock_test"
     },
     "7": {
-        "doc": "Real World",
+        "doc": "Exploration",
         "enum_name": "real_world"
     },
     "8": {
-        "doc": "Problem solving",
+        "doc": "Problem Solving",
         "enum_name": "problem_solving"
     }
 }
